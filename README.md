@@ -16,7 +16,7 @@
 ### Tik Tok has become a worldwide sensation and our group was interested in learning more about it's impact on the music industry. We planned to discover a relationship between the video trends and and how it relates to top music charts.
 
 ## Proposed Methodology:
-###Use Pandas to load in csv files in order to: 
+### Use Pandas to load in csv files in order to: 
 - Join data (our chosen data sets)
 - Clean data (drop null rows, etc)
 - Filter data (possibly by artist names and song title)
