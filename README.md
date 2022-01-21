@@ -17,8 +17,8 @@
 
 ## Proposed Methodology:
 - Use Pandas to load in csv files in order to: 
-    -Join data 
-    -Clean data
-    -Cilter data
+- Join data (our chosen data sets)
+- Clean data (drop null rows, etc)
+- Filter data (possibly by artist names and song title)
 
 
