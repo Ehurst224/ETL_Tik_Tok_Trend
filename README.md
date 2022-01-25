@@ -28,8 +28,8 @@
 - track_name: Title of the song.
 - artist_name: Name of the artist.
 - release_date: The day the song was released to the public.
-- popularity: Tiktok popularity - The popularity of a Tiktok video. The value will be between 0 and 100, with 100 being the most popular.
-The popularity of a video is a value between 0 and 100, with 100 being the most popular. The popularity is calculated by the sum of likes, comments, shares, and number of views.
+- popularity: Tiktok popularity - The popularity of a Tiktok audio. The value will be between 0 and 100, with 100 being the most popular.
+The popularity of a song is a value between 0 and 100, with 100 being the most popular. The popularity is calculated by the sum of likes, comments, shares, and number of views.
 - danceibility: Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
 - energy: Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
 - loudness: The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typically range between -60 and 0 db.
