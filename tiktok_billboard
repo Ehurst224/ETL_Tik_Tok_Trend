@@ -1,0 +1,28 @@
+Create Table tiktok_billboard (
+	track_id text PRIMARY KEY,
+	track_name text, 
+	artist_name text,
+	popularity integer,
+	danceability float,
+    energy float, 
+	loudness float,
+	mode float, 
+	speechiness float,
+	acousticness float,
+    instrumentalness float,
+	liveness float,
+	valence float,
+	tempo float,
+	duration_mins float,
+    album text,
+	apple_music_id text,
+	spotify_id text,
+    releasedate date,
+	spotify_popularity integer,
+	explicit text,
+	peak_rank float
+);
+
+SELECT * FROM tiktok_billboard
+
+DROP TABLE tiktok_billboard;
