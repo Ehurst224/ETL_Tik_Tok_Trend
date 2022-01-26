@@ -1,3 +1,5 @@
+/*Create Table*/
+
 Create Table tiktok_billboard (
 	track_id text PRIMARY KEY,
 	track_name text, 
@@ -26,3 +28,22 @@ Create Table tiktok_billboard (
 SELECT * FROM tiktok_billboard
 
 DROP TABLE tiktok_billboard;
+
+/*Queries*/
+
+SELECT track_name, danceability, peak_rank
+FROM tiktok_billboard
+ORDER BY peak_rank ASC;
+
+SELECT track_name, popularity, spotify_popularity, peak_rank
+FROM tiktok_billboard
+ORDER BY peak_rank ASC;
+
+SELECT artist_name, COUNT(artist_name),  AVG(popularity)
+FROM tiktok_billboard
+GROUP BY artist_name;
+
+
+
+
+
